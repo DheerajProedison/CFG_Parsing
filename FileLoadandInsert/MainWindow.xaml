@@ -1,0 +1,19 @@
+﻿<Window x:Class="FileLoadandInsert.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FileLoadandInsert"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="233" Margin="160,79,0,0" VerticalAlignment="Top" Width="368" />
+
+
+        <TextBox Name="FilePathTextBox" Width="300" Margin="194,109,306,277" />
+
+        <Button Content="Browse" HorizontalAlignment="Left" Margin="227,0,0,0" Width="70" Height="30" VerticalAlignment="Center" Click="Button_Click"/>
+        <Button Name="ProcessButton" Content="Process File" Width="100" Height="30" Margin="363,0,337,0" VerticalAlignment="Center" Click="ProcessButton_Click"/>
+
+    </Grid>
+</Window>
